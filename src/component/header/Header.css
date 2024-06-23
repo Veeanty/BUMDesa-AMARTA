@@ -1,0 +1,60 @@
+
+.navbar {
+  background: white;
+  font-weight: bold;
+}
+
+
+.navbar-brand img {
+  margin-left: 20px;
+}
+
+.navbar .nav-link{
+  margin-right: 20px;
+  font-weight: bold !important;
+  color: rgb(0, 0, 0) !important;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+
+.navbar-collapse {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+.dropdown-menu {
+  opacity: 0;
+  transition: opacity 1s ease;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.show > .dropdown-menu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.btn-navbar {
+  border-color: rgb(255, 255, 255) !important; 
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgb(0, 0, 0) !important;
+  border-width: 2px !important;
+  margin-left: 20px;
+  padding: 10px 20px !important;
+  font-weight: bold !important;
+  /* font-family: "Poppins", sans-serif !important; */
+}
+
+.btn-navbar:hover {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: rgb(0, 0, 0) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.icon-spacing {
+  margin-right: 8px;
+}
