@@ -1,10 +1,10 @@
 import "./Footer.css";
-import '../../assets/aos/aos.css';
-import '../../assets/bootstrap/css/bootstrap.min.css';
+// import '../../assets/aos/aos.css';
 import '../../assets/bootstrap-icons/bootstrap-icons.css';
 import '../../assets/boxicons/css/boxicons.min.css';
-import '../../assets/glightbox/css/glightbox.min.css';
-import '../../assets/swiper/swiper-bundle.min.css';
+// import '../../assets/bootstrap/css/bootstrap.min.css';
+// import '../../assets/glightbox/css/glightbox.min.css';
+// import '../../assets/swiper/swiper-bundle.min.css';
 import BRILogo from '../../assets/img/mitra/BRI.jpg';
 import PRSILogo from '../../assets/img/mitra/PRSI.png';
 import JejemuranLogo from '../../assets/img/mitra/jejamuran.png';

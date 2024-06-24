@@ -24,10 +24,12 @@ const Header = () => {
             </Nav.Link>
             <NavDropdown title="Unit Usaha" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
-                Pengelolaan Sampah
+                TPST
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">Kuliner</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Taman Kuliner
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.3">
                 Kolam Renang
@@ -38,7 +40,14 @@ const Header = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.3"> Toko Desa</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.3"> UMKM</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.3">
+                Desa Wisata
+              </NavDropdown.Item>
             </NavDropdown>
+
             <Nav.Link className="btn-link" href="#bag-1">
               Mitra Usaha
             </Nav.Link>
@@ -46,11 +55,11 @@ const Header = () => {
               Berita
             </Nav.Link>
             <Nav.Link className="btn-link" href={katalog} download>
-            Download Katalog
-        </Nav.Link>
+              Download Katalog
+            </Nav.Link>
           </Nav>
           <Nav>
-            <a className="btn btn-navbar"  href="https://wa.me/6287838523909">
+            <a className="btn btn-navbar" href="https://wa.me/6287838523909">
               <IoCall className="icon-spacing" />
               Hubungi Kami
             </a>

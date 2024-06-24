@@ -1,6 +1,5 @@
 .catalog-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color: white;
     display: flex;
     flex-direction: column; /* Mengatur tata letak dari atas ke bawah */
     align-items: center;
