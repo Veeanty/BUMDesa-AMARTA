@@ -6,15 +6,18 @@
     padding: 20px;
 }
 
-.title-catalog {
+.judul{
     text-align: center; /* Memusatkan teks */
     margin-bottom: 10px; /* Jarak antara h1 dan p */
 }
 
-.deskripsi-catalog {
-    text-align: center; /* Memusatkan teks */
-    max-width: 1000px;
+.deskripsi {
+    text-align: center;
     margin-bottom: 40px; /* Jarak antara p dan image-gallery */
+}
+
+.deskripsi-catalog {
+    max-width: 1000px;
 }
 
 .image-gallery {

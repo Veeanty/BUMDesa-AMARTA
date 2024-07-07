@@ -58,3 +58,10 @@
 .icon-spacing {
   margin-right: 8px;
 }
+
+@media screen and (max-width: 900px) {
+  .btn-navbar {
+    margin-bottom: 4px;
+    margin-left: 0px;
+  }
+}

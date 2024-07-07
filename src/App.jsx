@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Beranda from './Beranda';
+import BerandaPage from './pages/BerandaPage';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Beranda />} />
+        <Route exact path="/" element={<BerandaPage/>} />
       </Routes>
     </Router>
   );

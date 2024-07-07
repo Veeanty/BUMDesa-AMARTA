@@ -43,10 +43,10 @@ const Catalog = () => {
     return (
         
         <div className="catalog-container">
-            <h2 className='judul-catalog'>
+            <h2 className='judul'>
             Galeri Batik Sekar Idaman
             </h2>
-        <p className='deskripsi-catalog' >Batik Sekar Idaman menyediakan berbagai macam batik dengan motif yang sangat cantik dan elegan yang sangat cocok digunakan untuk sehari-hari ataupun acara resmi karena sangat fashionable tetapi tidak mengurangi nilai batik itu sendiri.</p>
+        <p className='deskripsi-catalog deskripsi' >Batik Sekar Idaman menyediakan berbagai macam batik dengan motif yang sangat cantik dan elegan yang sangat cocok digunakan untuk sehari-hari ataupun acara resmi karena sangat fashionable tetapi tidak mengurangi nilai batik itu sendiri.</p>
     
             <div className="image-gallery">
                 {images.map((image, index) => (
