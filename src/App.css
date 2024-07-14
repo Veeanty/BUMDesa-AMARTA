@@ -1,4 +1,10 @@
-#root {
+/* #root {
   font-family: 'Open Sans', sans-serif; 
+  background-color: white;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#root {
+  font-family: 'Poppins', sans-serif; 
   background-color: white;
 }

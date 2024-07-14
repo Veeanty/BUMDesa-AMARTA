@@ -1,7 +1,12 @@
+import Footer from "../component/footer/Footer"
+import Header from "../component/header/Header"
 
 const ProduksiBerasPage = () => {
   return (
-    <div>ProduksiBerasPage</div>
+    <div>
+        <Header/>
+        <Footer/>
+    </div>
   )
 }
 

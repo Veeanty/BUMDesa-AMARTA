@@ -4,12 +4,14 @@ import CoverVid from "../component/covervid/CoverVid";
 import Pengurus from "../component/pengurus/Pengurus";
 import Catalog from "../component/catalog/Catalog";
 import Footer from "../component/footer/Footer";
+import ProfilPengelolaanSampah from "../component/profil/ProfilPengelolaanSampah";
 
 const BerandaPage = () => {
   return (
     <div>
         <Header />
         <CoverVid/>
+        <ProfilPengelolaanSampah/>
         {/* <ProfilBUMDesa/> */}
         <Pengurus/>
         <Catalog/>

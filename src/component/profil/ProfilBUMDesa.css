@@ -5,6 +5,11 @@
     background-color: white; /* Background color putih */
     display: flex;
   }
+
+  .deskripsi-profil{
+    font-weight: bold;
+    text-align: justify;
+  }
   
   .logo {
     flex: 0 0 auto;

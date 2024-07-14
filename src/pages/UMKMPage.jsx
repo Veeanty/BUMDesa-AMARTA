@@ -2,7 +2,7 @@ import Footer from "../component/footer/Footer"
 import Header from "../component/header/Header"
 
 
-const TamanKulinerPage = () => {
+const UMKMPage = () => {
   return (
     <div>
         <Header/>
@@ -11,4 +11,4 @@ const TamanKulinerPage = () => {
   )
 }
 
-export default TamanKulinerPage
+export default UMKMPage

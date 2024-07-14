@@ -1,7 +1,12 @@
+import Footer from "../component/footer/Footer"
+import Header from "../component/header/Header"
 
 const TokoDesaPage = () => {
   return (
-    <div>TokoDesaPage</div>
+    <div>
+        <Header/>
+        <Footer/>
+    </div>
   )
 }
 
